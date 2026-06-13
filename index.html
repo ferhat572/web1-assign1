@@ -5,18 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
      <!-- I use the nav tag to define a navigation menu that allows moving between pages -->
      <nav>
-        <a href="index.html">Home</a> | <a href="notes.html">Notes</a>
+       <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="notes.html">Notes</a></li>
+       </ul>
      </nav>
 
      <!-- I use the header because it is the first part of my website. It shows my name as the main heading. -->
     <header>
-        <h1>Ferhat</h1>
+        <h1 class="site-title">Ferhat</h1>
     </header>
 
     <!-- I use the main tag because this is where the important content of my webpage goes. -->
@@ -25,7 +29,7 @@
         <article>
             <!-- This heading tells the reader that this section is about me. -->
             <h2>About Me</h2>
-            <img src="images/me.jpeg" alt="A photo of me" width="300">
+            <img id="my-image" src="images/me.jpeg" alt="A photo of me" width="300">
 
             <!-- I use this paragraph to introduce myself, my college, and my program. -->
             <p>

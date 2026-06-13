@@ -1,0 +1,48 @@
+/* 1.this is Inheritance: to Change font family and set font size to 18px globally */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* 2.this is Select multiple elements: Apply background color to header and footer */
+header, footer {
+    background-color: rgb(125, 152, 125);
+    padding: 15px;
+    text-align: center;
+}
+
+/* 3. Class selector: Style the main heading using the site-title class */
+.site-title {
+    color: #7c0505;
+}
+
+/* 4. Id selector: Apply a box-shadow to the image using the my-image id */
+#my-image {
+    box-shadow: 0 0 1px 2px black;
+}
+
+/* 5. Hobbies list: I use squares for the list items */
+ul {
+    list-style-type: square;
+}
+
+/* 6. Navigation: Style the navigation list and links */
+nav ul {
+    list-style-type: none; /* Removes bullets from the navigation list */
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none; /* Removes the underline from links */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 1px solid #000;
+    display: inline-block; /* Allows padding and border to display correctly */
+}
+
+/* 7. Navigation hover: to Change link color when hovering */
+nav a:hover {
+    background-color: #555;
+}
